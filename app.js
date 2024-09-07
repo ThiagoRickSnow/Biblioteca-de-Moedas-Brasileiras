@@ -19,6 +19,7 @@ function exibirMoedas(moedas) {
             <p><strong>Descrição:</strong> ${moeda.descrição}</p>
             <p><strong>Ano:</strong> ${moeda.ano}</p>
             <img src="images/${moeda.imagem}" alt="Imagem da moeda ${moeda.moeda}">
+            <img src="images/${moeda.imagemEfige}" alt="Imagem da moeda ${moeda.moeda}">
         `;
   
         resultadosMoedas.appendChild(moedaDiv); // Corrigido para 'moedaDiv' e 'resultadosMoedas'
